@@ -67,7 +67,7 @@ img {
 .header__texto {
   color: var(--color-branco);
   text-align: center;
-  margin-top: 5rem;
+  margin-top: 4rem;
 }
 @media (min-width: 768px) {
   .header__texto {
@@ -79,6 +79,7 @@ img {
     display: flex;
     justify-content: space-between; /*horizontal alineamiento*/
     align-items: center; /*verticalmente*/
+
   }
 }
 .logo {
@@ -87,6 +88,7 @@ img {
 
 .logo__nombre {
   font-weight: 400;
+  padding: 2rem 0;
 }
 
 .logo__bold {
@@ -180,5 +182,5 @@ img {
 
 .footer{
   background-color: var(--color-negro);
-  padding: 3rem;
+  padding-bottom: 1rem;
 }
